@@ -1,0 +1,21 @@
+  "BlogPerUserInfo": {
+   "id": "BlogPerUserInfo",
+   "type": "object",
+   "properties": {
+    "blogId": {
+     "type": "string",
+     "description": "ID of the Blog resource"
+    },
+    "hasAdminAccess": {
+     "type": "boolean",
+     "description": "True if the user has Admin level access to the blog."
+    },
+    "kind": {
+     "type": "string",
+     "description": "The kind of this entity. Always blogger#blogPerUserInfo",
+     "default": "blogger#blogPerUserInfo"
+    },
+    "photosAlbumKey": {
+     "type": "string",
+     "description": "The Photo Album Key for the user when adding photos to the blog"
+    },
